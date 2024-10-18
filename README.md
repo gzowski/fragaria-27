@@ -1,7 +1,7 @@
 # Fragaria-27
 27 Key macropad with MX hotswap sockets, designed to fit within a iphone 13/14 pro max case giving many options given the amount of phone case options available.
 
-![Fragari-27-rev1](https://github.com/gzowski/fragari27/blob/main/Images/fragari27.jpg)
+![Fragaria-27-rev1](https://github.com/gzowski/fragaria-27/blob/main/Images/fragaria27.jpg)
 
 ## Features
 * 27 Key layout
