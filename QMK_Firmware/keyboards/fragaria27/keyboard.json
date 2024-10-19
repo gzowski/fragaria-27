@@ -1,0 +1,116 @@
+{
+    "manufacturer": "gzowski",
+    "keyboard_name": "Fragaria-27",
+    "maintainer": "gzowski",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "rgb_matrix": true,
+    },
+    "matrix_pins": {
+        "cols": ["GP25", "GP0", "GP1", "GP2", "GP3", "GP4", "GP5"],
+        "rows": ["GP18", "GP20", "GP21", "GP6"]
+    },
+    "processor": "RP2040",
+    "rgb_matrix": {
+        "animations": {
+            "band_sat": true,
+            "band_val": true,
+            "breathing": true,
+            "cycle_all": true,
+            "cycle_left_right": true,
+            "cycle_out_in": true,
+            "cycle_out_in_dual": true,
+            "dual_beacon": true,
+            "gradient_left_right": true,
+            "hue_breathing": true,
+            "hue_pendulum": true,
+            "hue_wave": true,
+            "jellybean_raindrops": true,
+            "rainbow_beacon": true,
+            "rainbow_moving_chevron": true,
+            "raindrops": true
+        },
+        "driver": "ws2812",
+        "layout": [
+            {"matrix": [0, 0], "x": 0, "y": 0, "flags": 4},
+            {"matrix": [0, 1], "x": 32, "y": 0, "flags": 4},
+            {"matrix": [0, 2], "x": 64, "y": 0, "flags": 4},
+            {"matrix": [0, 3], "x": 96, "y": 0, "flags": 4},
+            {"matrix": [0, 4], "x": 128, "y": 0, "flags": 4},
+            {"matrix": [0, 5], "x": 160, "y": 0, "flags": 4},
+            {"matrix": [0, 6], "x": 192, "y": 0, "flags": 4},
+            {"matrix": [1, 0], "x": 0, "y": 16, "flags": 4},
+            {"matrix": [1, 1], "x": 32, "y": 16, "flags": 4},
+            {"matrix": [1, 2], "x": 64, "y": 16, "flags": 4},
+            {"matrix": [1, 3], "x": 96, "y": 16, "flags": 4},
+            {"matrix": [1, 4], "x": 128, "y": 16, "flags": 4},
+            {"matrix": [1, 5], "x": 160, "y": 16, "flags": 4},
+            {"matrix": [1, 6], "x": 192, "y": 16, "flags": 4}
+            {"matrix": [2, 0], "x": 0, "y": 32, "flags": 4},
+            {"matrix": [2, 1], "x": 32, "y": 32, "flags": 4},
+            {"matrix": [2, 2], "x": 64, "y": 32, "flags": 4},
+            {"matrix": [2, 3], "x": 96, "y": 32, "flags": 4},
+            {"matrix": [2, 4], "x": 128, "y": 32, "flags": 4},
+            {"matrix": [2, 5], "x": 160, "y": 32, "flags": 4},
+            {"matrix": [2, 6], "x": 192, "y": 32, "flags": 4},
+            {"matrix": [3, 1], "x": 32, "y": 48, "flags": 4},
+            {"matrix": [3, 2], "x": 64, "y": 48, "flags": 4},
+            {"matrix": [3, 3], "x": 96, "y": 48, "flags": 4},
+            {"matrix": [3, 4], "x": 128, "y": 48, "flags": 4},
+            {"matrix": [3, 5], "x": 160, "y": 48, "flags": 4},
+            {"matrix": [3, 6], "x": 192, "y": 48, "flags": 4}
+        ],
+        "led_flush_limit": 14,
+        "led_process_limit": 5,
+        "max_brightness": 200,
+        "sleep": true
+    },
+    "url": "https://github.com/gzowski/somei70",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x6F64",
+        "vid": "0x71DE"
+    },
+    "ws2812": {
+        "driver": "vendor",
+        "pin": "GP19"
+    },
+    "layouts": {
+        "LAYOUT_7x4": {
+            "layout": [
+                {"label": "1", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label": "2", "matrix": [0, 1], "x": 1, "y": 0},
+                {"label": "3", "matrix": [0, 2], "x": 2, "y": 0},
+                {"label": "4", "matrix": [0, 3], "x": 3, "y": 0},
+                {"label": "5", "matrix": [0, 4], "x": 4, "y": 0},
+                {"label": "6", "matrix": [0, 5], "x": 5, "y": 0},
+                {"label": "7", "matrix": [0, 6], "x": 6, "y": 0},
+                {"label": "q", "matrix": [1, 0], "x": 0, "y": 1},
+		{"label": "w", "matrix": [1, 1], "x": 1, "y": 1},
+		{"label": "e", "matrix": [1, 2], "x": 2, "y": 1},
+		{"label": "r", "matrix": [1, 3], "x": 3, "y": 1},
+		{"label": "t", "matrix": [1, 4], "x": 4, "y": 1},
+		{"label": "y", "matrix": [1, 5], "x": 5, "y": 1},
+		{"label": "u", "matrix": [1, 6], "x": 6, "y": 1},
+                {"label": "a", "matrix": [2, 0], "x": 0, "y": 2},
+                {"label": "s", "matrix": [2, 1], "x": 1, "y": 2},
+                {"label": "d", "matrix": [2, 2], "x": 2, "y": 2},
+                {"label": "f", "matrix": [2, 3], "x": 3, "y": 2},
+                {"label": "g", "matrix": [2, 4], "x": 4, "y": 2},
+                {"label": "h", "matrix": [2, 5], "x": 5, "y": 2},
+                {"label": "j", "matrix": [2, 6], "x": 6, "y": 2},
+                {"label": "z", "matrix": [3, 1], "x": 1, "y": 3},
+                {"label": "x", "matrix": [3, 2], "x": 2, "y": 3},
+                {"label": "c", "matrix": [3, 3], "x": 3, "y": 3},
+                {"label": "v", "matrix": [3, 4], "x": 4, "y": 3},
+                {"label": "b", "matrix": [3, 5], "x": 5, "y": 3},
+                {"label": "n", "matrix": [3, 6], "x": 6, "y": 3}
+		]
+        }
+    }
+}
