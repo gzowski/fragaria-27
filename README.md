@@ -18,7 +18,7 @@
 | :-------- | :------- | :------------------------- |
 | Switches | 27 | MX Switches |
 | Keycaps | 27 | 1U Keycaps |
-
+| PCB Components | - | Included in kicad design and within PCB/bom/ibom.html |
 ## Optional Parts
 
 | Part | Quantity     | Description                |
