@@ -1,0 +1,135 @@
+{
+   "name":"Fragaria-27",
+   "vendorId":"0x71CA",
+   "productId":"0x6F64",
+   "keycodes":[
+      "qmk_lighting"
+   ],
+   "menus":[
+      {
+         "label":"Lighting",
+         "content":[
+            {
+               "label":"Backlight",
+               "content":[
+                  {
+                     "label":"Brightness",
+                     "type":"range",
+                     "options":[
+                        0,
+                        200
+                     ],
+                     "content":[
+                        "id_qmk_rgb_matrix_brightness",
+                        3,
+                        1
+                     ]
+                  },
+                  {
+                     "label":"Effect",
+                     "type":"dropdown",
+                     "content":[
+                        "id_qmk_rgb_matrix_effect",
+                        3,
+                        2
+                     ],
+                     "options":[
+                        "All Off",
+                        "Solid Color",
+                        "Gradient Left/Right",
+                        "Breathing",
+                        "Band Sat.",
+                        "Band Val.",
+                        "Cycle All",
+                        "Cycle Left/Right",
+                        "Rainbow Moving Chevron",
+                        "Cycle Out/In",
+                        "Cycle Out/In Dual",
+                        "Dual Beacon",
+                        "Rainbow Beacon",
+                        "Raindrops",
+                        "Jellybean Raindrops",
+                        "Hue Breathing",
+                        "Hue Pendulum",
+                        "Hue Wave"
+                     ]
+                  },
+                  {
+                     "showIf":"{id_qmk_rgb_matrix_effect} != 0",
+                     "label":"Effect Speed",
+                     "type":"range",
+                     "options":[
+                        0,
+                        255
+                     ],
+                     "content":[
+                        "id_qmk_rgb_matrix_effect_speed",
+                        3,
+                        3
+                     ]
+                  },
+                  {
+                     "showIf":"{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
+                     "label":"Color",
+                     "type":"color",
+                     "content":[
+                        "id_qmk_rgb_matrix_color",
+                        3,
+                        4
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "matrix":{
+      "rows":4,
+      "cols":7
+   },
+   "layouts":{
+      "keymap":
+[
+  [
+    "0,0",
+    "0,1",
+    "0,2",
+    "0,3",
+    "0,4",
+    "0,5",
+    "0,6"
+  ],
+  [
+    "1,0",
+    "1,1",
+    "1,2",
+    "1,3",
+    "1,4",
+    "1,5",
+    "1,6"
+  ],
+  [
+    "2,0",
+    "2,1",
+    "2,2",
+    "2,3",
+    "2,4",
+    "2,5",
+    "2,6"
+  ],
+  [
+    {
+      "x": 1
+    },
+    "3,1",
+    "3,2",
+    "3,3",
+    "3,4",
+    "3,5",
+    {
+      "c": "#777777"
+    },
+    "3,6"
+  ]
+]   }
+}

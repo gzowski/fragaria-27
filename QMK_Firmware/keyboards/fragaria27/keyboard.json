@@ -3,7 +3,7 @@
     "keyboard_name": "Fragaria-27",
     "maintainer": "gzowski",
     "bootloader": "rp2040",
-    "diode_direction": "COL2ROW",
+    "diode_direction": "ROW2COL",
     "features": {
         "bootmagic": true,
         "extrakey": true,
@@ -74,7 +74,7 @@
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x6F64",
-        "vid": "0x71DE"
+        "vid": "0x71CA"
     },
     "ws2812": {
         "driver": "vendor",
