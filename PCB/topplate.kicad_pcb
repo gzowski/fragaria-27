@@ -1,0 +1,5300 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(title "Fragaria")
+		(date "2024-10-05")
+		(rev "1.0")
+		(company "Gzowski.co.uk")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "White")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Purple")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Purple")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "White")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "0565caaa-d180-44fd-a3e4-54e296ef70e9")
+		(at 122.6405 112.223)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW16"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "468161e5-a87b-424a-b109-56d060fec584")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2ee09fa8-5776-48e2-806d-a95cfc441a52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32981351-2ee8-4de8-934c-5f38ddcef2d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82164ed4-510a-4f2f-afe9-9b5853a2772f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6af1c3a0-efa0-4b63-9925-557fbda4d73f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cd74c26-44bd-4ccc-9e26-13aa27545217")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/bf5b7f04-6d61-4292-b30f-a1d5fbbcef78")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5a508de6-9475-43f1-91fa-549fd61bb84a")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2ef55ec4-5366-4938-b8b2-5e1fb26eb51a")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e1bfd72c-92b9-4e36-a431-090d869ee612")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "04f6ab58-ac03-4a3b-8ac0-bd1a4351ac76")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4ae77389-c9a9-4545-9ef8-f2e93774553b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "ef57f6ea-345a-4041-bd0a-2be9bca6f863")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "0ec29de3-f5f8-4f31-8449-6eb819b06143")
+		(at 122.6405 131.277955)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW22"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a6d923c0-0f34-4ad0-a427-59d66d5aa9bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0e368291-5d0c-486d-b8fc-265250fc6d23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "554b020a-8e10-40be-a007-95f949903326")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc45aaaf-0f93-4e84-87eb-d06299f571c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "061f1b8f-b993-430d-8019-43918fed5c4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62ecd250-042d-45ef-94e6-691c715789e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cdd97783-0e06-4a12-b491-21c851ac6d12")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2e99fd60-4c08-4f67-9f73-72ac69d75dfa")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "593681d3-0cad-4291-bdd2-5303c49482f4")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ed5c955f-2f08-491c-b792-50556700f126")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "783da2f5-c224-4b23-bce7-5af14645a946")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "394d8df4-4081-4f8e-8edf-40a0d2fa774c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "7e7832dc-c878-4164-aa75-372c571a4cfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "151725c4-e549-46d8-9f2b-6705cc9f4578")
+		(at 141.6905 131.273)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW23"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "79d62047-a521-457f-9750-347eacc1def9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "939648a6-44ce-43b7-92a7-f6deecca1038")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "420d36d0-2601-4b66-952d-cc3aa415abab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff7fd261-b947-4a01-82fe-7bd64551055b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "166c01a3-8826-49da-ba6e-9929669c2fdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86041657-1b96-4d44-a219-49d542dd122d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cd17522c-ce36-472e-bc87-2cdbeb5ff449")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "898aa7cf-d3b6-42f6-b2fc-1e22030b0362")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c0e3f4a6-55a1-4974-a586-9fa6f88dd4eb")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ed0c0319-df8e-407f-bb0d-1acfab6e6efb")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d7c30b7b-ceef-4ef3-a0d2-a160ff83455a")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "886fab49-38e6-41d4-8e88-aedd291a2509")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "beca041e-d22c-4538-b5a0-2b172d15b342")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "2b848a58-2b29-42f5-8203-1b63ef62127e")
+		(at 122.6405 93.173)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW9"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "80e6c178-5817-4d2b-ad99-1376c0c1d275")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1b5aae02-3aab-446a-8cb1-74baed1e846a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b76bfba-83e5-4ab1-89fa-c20d7d233138")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bb3e61e-030b-4693-b928-603c6a83466b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cd8e8de-b8d6-448b-a762-a9760491992f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d052cef-cd6b-4e6c-95cb-a4d1db88d8d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a22b56ad-95bb-4434-9717-213418243d83")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "632198d3-ec48-4a40-8105-c51235f3d58e")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "65771fb7-8ea7-48ac-800e-7ed765f2cecb")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "47aef1f6-ff76-4640-aea6-d5be04ac7776")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4d0a4342-03b7-40d6-a230-f823e8528dc3")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9d719c2c-e0c1-4c5b-9411-a7011d5928bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "662250ef-d6d2-4778-b557-fd1daa692952")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "2c008570-8946-4259-a668-2fc26ba28009")
+		(at 103.5905 93.177955)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW8"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "06769feb-a361-4278-9c9c-c6b9b3b4661d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b815a9f6-94c5-4285-98e3-07f5f64b734d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1634d52e-2554-4b49-8f7a-c3cdfb10c900")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "130186ee-14c0-4053-a345-7a23ccb900ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab8228ef-0d49-4db8-8e7c-2d645ea8f559")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4d12d83-0880-4521-a5fb-517e396d08ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9762180d-dfd1-4c73-8225-d2690ed29f8a")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f31d39ab-d2c8-42b9-b3bd-811eb2a88ead")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e11e2842-8938-4b56-b967-9a038cd39cc3")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "05269ed7-3399-4608-9eba-ab753402a162")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ec72d2bd-d0ad-4476-8f1d-0ada3ad41c26")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "89387666-17a7-4e50-befa-785b90def120")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "2ce9270d-8841-4618-b336-ce98304d730f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "49b949f0-2acf-47eb-b4dc-a16a135a050b")
+		(at 198.8375 112.21)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW20"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "32313c3e-26ae-4b30-9164-8dea020de4ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "30d97792-2de8-47f3-8b8a-8fc826c540f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5879382-4d0a-48be-8c09-cf8e3349a777")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "950d1d94-3170-464f-ab49-43c0bb846134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "379e9066-ed7c-4fb3-8616-34acd0e2a4dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6b3455e-4e9f-4bca-ada6-7a0137708aac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c83c2cb2-f136-4ec4-b100-f2e0b1db762a")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c8e89ecf-c8ff-454d-9392-0e17d45f3f44")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1f68be1b-8bde-4661-bbd1-dfe8551df86c")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bda3cbb8-75b2-4e96-99b6-1c9229d76262")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "777d6da0-7d97-4a2a-9102-eba01a871570")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "09067dec-1b37-4713-bb85-bea09027309c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "5fa88fc6-5e6b-46c1-b14b-58621d11a213")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "4bd1bd8c-dcb0-4067-a299-41d4b8a3d86e")
+		(at 179.7905 74.123)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW5"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d85a7aa9-ac57-4680-8de9-bb707263bba9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8566fb18-67e6-4e50-be1e-7bd174d92cc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2eb0c6c9-bc50-4a72-8f26-7b0a5f5bad07")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc7a731b-f045-4a63-9ac5-504078e375cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86acb93a-654f-4d57-8393-0653d70d858e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "714597c2-eba4-4a31-9503-16d46a13ce7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/623e6940-9f9b-427b-afc2-e63aec7b1c3f")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6cc4e7a0-0715-45b0-84b2-1e93b377155a")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "33bd7d7d-5103-40fc-93ba-0b4a4235c662")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "48b19fb0-343d-4e7c-91d1-3a54ee6b4564")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fbca8c56-0fde-46e6-b589-163c797eb4ae")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "48e6e9e3-d287-47d9-a1d7-25fe58579580")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "67e10178-e03e-4119-8eb2-9b36a5967546")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "57025413-b0d1-4eaa-bab2-7669f9c2f4fc")
+		(at 122.6405 74.127955)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW2"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "67800358-e19b-4bde-812e-c83103c14646")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0d4c3965-a732-4ae5-9cee-b6f235f43b32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35046870-ffa3-4d78-9c88-9a543d310667")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7606e241-d5c7-44c3-ac40-09c717ca591c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37d1ee8f-d9c5-4c75-b917-e3d740268de5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "741a3e9a-85c7-4e6c-ace9-d035de181a37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c64fb598-3bc7-4f2c-93ef-68563df13f40")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ed5500e6-4e2b-48c6-8ccd-ccd2a09f358d")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "501bca41-874b-421b-9c65-c2762cc77bb6")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "15867c6a-479f-4e44-8051-047ba68acfa4")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3b48b0af-5934-40a4-a64b-4acd24882cf2")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b3c5d5be-3590-468b-95c3-1d41689c7dbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "ae014028-3c02-4d18-823d-4f158ab88455")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "5c51816d-68f8-42b3-9894-71d7bfc3d65f")
+		(at 141.6805 93.183)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW10"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f4e76058-c530-4bce-bce0-666f1aad7acf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "20eaaf2d-07b8-49b0-9187-4066cec4d6e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e42c2c8-cf63-453d-8b6b-a8214cace361")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1164eee8-a4c5-43b0-ad05-42dfa9163248")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e26ec11-e302-4076-a8de-a795d9fb329d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6eacbd1a-324e-494e-8fe7-52089641805f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/27a346e9-af2f-4042-a3ca-5e75155943f9")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4f0b5ea9-67bd-403a-891d-e3bcda613244")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c6a59a72-fac8-49b7-8fea-6d76bf4bee20")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5e26552e-691a-49ee-9c64-c146f72d6332")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0cbe58ed-66e7-49a4-abd4-e54b7fa92a2f")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "22ddf60c-3aec-4cbb-a2cd-21362e2fb235")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "6dc073d3-65a1-4e1c-95bc-bc59940a305e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "687c021e-01a5-49c9-a64f-369cd8484d05")
+		(at 217.8905 131.252955)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW27"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "759b0c98-2c1f-4038-8f79-b8dd32aed1cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "62f68eec-32d6-4e1e-92fc-7c4bb2c24bd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "060717d6-ca24-4931-90d3-8db25855a0f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a03656c1-4b64-4e62-874b-6a5f8557614e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55a5b1fc-d99f-4f1a-bf0e-dbd7f22ed990")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3919e2f-04d5-4190-9360-95ccaa3f4262")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3ed8bba6-9052-4b87-982e-768ac8d854a8")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "609ac2fe-a83a-4c21-b3fc-5920f4bd419f")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "25505419-e1e7-4825-a427-41aa66420f22")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a9a2eada-62f8-4c50-9e66-a33c08d4e3d5")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e182778d-df83-49f2-9a54-f61ac8435a4c")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c0f28d28-ac33-4652-b9b5-a5d7978ad6ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "b777def1-36c1-4f02-847b-da8a93e3ff75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "68def3f6-bc21-478d-be8b-30340f187111")
+		(at 198.8375 131.26)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW26"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8ca0b16f-1db5-4328-8267-d78d728c1c20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6ea7743e-2fde-4d44-b220-20b59f33906d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97f89ef9-f77f-4ecf-a618-8ebc7c849726")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f58dd5e-48d4-4a14-bfc2-feffb1e6028f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f05609fd-7664-497c-8ad9-726603192587")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "078aa0a1-66f0-41ff-b381-e8e2c07383db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e3b7f622-a9c2-4058-b204-5c6c3e3ab13d")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a9dfd9b1-8002-4c2a-bfe6-f7b64840aa40")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3fff91b6-e6f5-49e4-b986-c2d332b719df")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9fe43b81-1c40-46e2-a854-8844782a1571")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "394ccdde-a8fb-497d-a776-f5791697dfec")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "617f46d4-100f-41cd-8d17-666066778c28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "0bfbeb3b-acd4-4fb7-a8c7-4eb4ed3c595c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "72535938-f376-4352-8f6e-b4762aeaada4")
+		(at 160.7405 131.273)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW24"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "69ccaddc-7e31-4745-85df-bbf5b34bf1db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "39bfbe58-7c75-4b7d-8a08-c406b0d3c136")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f95348ba-c7c0-47a9-bdcd-fc3358352c99")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f907276-efc9-43e9-b301-161fbe2831d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79b083e5-af7a-4d47-b27f-ca3ba38d7783")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19f101be-3c0a-41de-a939-3817f44a6dfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3a6ee589-304a-4676-873f-ecd9055d701a")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d1d8a91c-0838-404d-8712-8b9e89890000")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0f289a06-9eab-4119-9219-36b1ca41e100")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e0114b82-b56a-43a0-859c-1443804cb12c")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "421df3ec-1d9d-4ce1-a2a9-42dfa5234fd0")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2b6adf0b-9179-42cf-85f5-2e78ec859cda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "4a2e8ca2-99ee-451a-ab8a-53bf32dc71e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "84fbb829-8bf9-45e0-8f3c-ce32f335706f")
+		(at 198.8405 74.123)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW6"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "850926e7-9093-4f21-a4fe-4e81022edefb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8ea1d33d-7ff4-4fa6-9873-360b926f0725")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64832f25-86f1-4513-87fc-643f25b44433")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1e191e8-530b-4b6d-8ac5-5ce1b0557c3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30482e31-d06c-43fe-b5c0-b8b18087b24a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb2a6678-06b0-469d-90b1-ab7d3cb7287d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/88422f11-c395-4430-8915-356e0f711a6c")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b2a86dd8-48e7-41bb-bb41-8eaef8c6eab9")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1e369636-cad1-4fb3-b8cb-1533c95ffab7")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "59ca2fab-e7ad-47bd-8985-ce1d40210ee1")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "80e6cd5a-9652-4e6d-8d4a-7c41cab2f4d2")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "755a58ee-964a-44d9-87e7-bfa46c0b7226")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "30c0d28e-e35c-4a55-aaac-743cbacb5f66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "8e325c39-c220-47f6-8f93-669913531e21")
+		(at 217.8805 74.108)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW7"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ebb9318b-1767-48e5-bfb8-1c145ed3fae3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "46a5d8b7-ae76-4082-8bc8-77bd134446b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91aa2bfa-2187-4dfd-a6c5-db9c84be9633")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca934b8f-0896-418c-9a62-330e90693d32")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb9b793b-8a11-4dc1-a2a4-53943a028d6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b97118fc-8b5b-4ad5-961e-d546a8f10175")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9821f916-a020-4974-b886-47928c960360")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "62fe86d4-98da-49b3-968c-a8963477a66c")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4f5c8efb-5fd9-4d95-bb30-def05e9c8cf0")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b7e827b5-5a7d-4b67-9b8b-cac57c9f3262")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "06738fb0-2e1e-4550-94f6-0f219fc06f98")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e276f00a-18b2-4e60-9555-e13f62d06abb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "47988573-0283-495b-b9c1-114f15031b9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "98bdd38f-9173-49b8-9d45-b4b8bc9a3558")
+		(at 141.6805 112.233)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW17"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd50436b-9fd6-46a0-93d3-e37eecaca0b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0e32c80a-c590-4f2a-b73a-7938aa49443e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9913cdf7-029b-4a61-8c47-0dbffeac9d07")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edc0c0e8-dbd8-429d-a136-332a04e8edca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a58f68f4-ad2e-4f3f-8e05-6fddc3760156")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e2253ca-6a92-47ef-8783-e9e07f18261c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b4c3d3bb-99d0-4cc0-9735-57021461ecbd")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5473bedc-551e-438f-9101-32de2be3e037")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9ed6e07e-cf67-48b3-a86c-581b40180417")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f0f426bf-d8d0-459d-8c0e-a0a5fd496145")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2d4c3f9a-4255-44eb-a2f4-a0af95a4bd69")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ad3f0fac-f1d2-46f1-8054-3b9b189c280c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "f316a73c-a02d-4303-8444-894b8a56e800")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "9b8bbedc-3cfd-42e2-9870-721528a5b825")
+		(at 179.8055 93.173)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW12"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "90044959-d1b9-4cfc-830a-d22bdfc95f8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e6c6a490-44e2-4997-9473-39d78a6c28d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bf59bbc-4190-418e-9abd-3f5a929d4eff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25d825ce-67ae-4fcb-a6c1-53511b9e01b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0eb5a651-9184-47cc-9c6c-9c491df210a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea4daa8b-2f83-42ad-8776-ca4964fad877")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/234a8cc7-8b86-43a2-91d6-2aefdbe687ba")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e333d231-e600-49bd-9a7e-171b8a22af6f")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a88c1ec6-a707-40f2-ace9-1f4edad3371e")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a790ed87-b9ec-4c06-b740-2c46990f8786")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c1369c52-e0eb-46a9-9ba0-3eb8c8e57d85")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "afff1ac4-b21a-4c7f-b84c-7f069708e82a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "13e02050-6f79-4686-aa9b-187de2e8bf9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "a1c80e79-7672-4e94-bd7b-0c216a7096af")
+		(at 198.8405 93.173)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW13"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cf3bcd08-8116-42ce-9544-8c08343364de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7f7e7f21-6c19-464f-a47b-4d65505618f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "227639ea-902b-4ffb-8845-17d121dc7f7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "701489a1-c985-47f4-bd84-12ea2c004625")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec13b9c2-22e0-40fc-b4eb-8054138750bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f933f237-a270-4980-b4a9-675494bc10d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d2ed318b-0361-4c6a-b7d9-f19172260584")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3d5d6114-db83-419b-a33e-3de1672f0e1c")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "401c1224-c3dc-43bd-842f-d057d46e8f8f")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8e6d26ed-dafb-47d3-ae7f-b2720330148a")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a56e2219-b352-4c97-80a9-d238655abd75")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4f41dbbc-d4ba-4a4d-ac68-2375538abcd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "db77d5db-88fd-4af4-8191-59901c6f4e64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "a214a56c-1d00-4100-9df1-9ba8f54b9f4a")
+		(at 141.6805 74.127955)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW3"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9c675b2c-2756-407c-b64b-136f9c036b4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c0602361-887d-4614-ad7b-21dc56feabff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecc0d9dd-92b5-48e5-ac30-a1f29042dad5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f40cbb83-27f9-433c-845a-c5e8abd77c40")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03b0bb7d-c561-453b-a511-02a3b87cf9e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2815a2e9-66d6-4a68-b46d-6941b48b06ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/17ddb637-9c7c-45c4-b748-3577c6ea746c")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a4b2d793-2a8f-429c-9840-b7ebe1efdc34")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "821230dd-5e47-4a48-bb94-6628e0f9eb43")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "31567fcc-df3c-4c80-8e9f-b576e6539bc5")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "228da976-375c-4809-af04-11c5a733f379")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4cfe37c7-31af-4cce-a27a-e3bdfe9649be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "98ac030a-2481-4cf5-83d3-6d56308713af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "bb5e414e-e1ad-414b-bed3-72a7bcce3844")
+		(at 160.7405 112.223)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW18"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ef90d66a-e965-4ae0-878a-2506f17f5f84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f89b5a8f-be41-4f21-9960-f6f9b8994119")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b074549e-17e9-4482-bfa5-96eb6291127a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b111171f-2ec5-4b8b-8db1-e8ed1e584ca5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54d810b7-edb9-45e3-b4d7-aa409a86a0b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abdf1a2c-7b0c-4a19-a177-1bfc970e7535")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9d086fd5-ac4d-4ced-9cc4-3e65a82aaefb")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "db5efa83-db14-4a5a-add1-e41d9f30abf5")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "785adb72-a97c-4f1e-a28e-eebb2c103956")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8715d808-35b9-4db1-8b2b-9529f4a8f102")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e582cb78-2598-41ee-b077-84ad60b81e5b")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "760784c1-a5f5-4aa4-ab9d-de37f36a2757")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "21ad2350-1759-4470-b046-0956c96438c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "c3cd9614-4874-40d2-a6ed-84acc15b0b37")
+		(at 103.5875 112.235)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW15"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cfad7dab-dcfe-413e-b20f-fbf3338a58cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "05908552-efd2-4c3a-818c-70cf18d066b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "518b4356-f09c-4204-b13c-9ce1bea58931")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15fb2783-c2cc-41db-b380-f1054d6fc57c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d61ffc2b-d0f2-40bb-9b3e-42934a8815ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "517af2fa-6e58-4169-aa61-0090ef67082f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/14e7e2c6-5a9e-4703-9476-2a251436c58c")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1334f971-7e53-4b62-8582-483c26470bc2")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4594b236-399d-4d45-9c96-a4d033bc434a")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d0433b1d-179a-4093-b5d0-8483338d2266")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "038b04b5-f147-4137-b637-a79c28d4f33c")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d67abd7d-52e3-45b2-85a5-1a5cc2f4af04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "de48d96e-f5a4-4f47-86dc-31d3b273366e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "e3f730c8-77fa-4a65-a09b-603e1e6854d4")
+		(at 160.7405 93.177955)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW11"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "24b01262-39cb-4a0e-902b-37f9677013b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2901fd43-bf5d-414d-a56e-d8478929c133")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b67ff15a-bbd7-4f0f-9a3d-e97024626db8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "992d2241-e76d-4c42-af46-615825a7ee65")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "349fb3ba-5a48-4a93-b3c7-0a92018e6cdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d794ce3-e746-4951-a075-51ad61c98500")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ba563e1f-c389-47bb-8c99-edcc3d8eeb49")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "87cd19dc-c65e-4057-8a63-250b99fd7618")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8fa10504-75ac-41fb-b2b3-05ae8271f8ac")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1033d7d3-ec76-4aa3-b0e6-d15b40b3a0bf")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "57a8f2ee-3188-4f83-ad37-7acb92e71b8a")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f39a9a93-9fc4-4569-ae0f-5b72ba7cdd5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "4abaf603-7a02-48b0-9e0b-7fa57168e3e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "e9e634e9-5ca3-4b06-89de-69ebe56578d0")
+		(at 103.5805 74.133)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW1"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "57d56299-b715-4859-ad66-3e9c6cd60db6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "23541781-fa1e-4b1f-a7d2-d3a54b8bad41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36d3bc13-8aca-4830-9ebd-f00f7effb28a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dec5b25-a599-4f7a-80a4-10dcdd7b6a9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4244d58-95ef-400e-af47-a2a36bc040ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25c31746-239a-44d6-940f-bb09762c0e3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/1699746c-7260-4d35-834c-96bf94b19308")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6321570d-deb6-4429-b1f5-75a41ddc6114")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d9d44339-3783-47e1-9efa-8d1af02a714c")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "28d4f0e6-1244-49dc-961d-a6adbf2a898b")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "82d01f2d-298f-41cf-8431-92f2dfd1344e")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "81ea0cbf-776c-445c-8150-653418049cff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "55ae92ab-e221-4dc1-a311-41ff288e37dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "eaedf2a9-e8e5-4d3f-a25d-209687149315")
+		(at 160.7405 74.123)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW4"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "394ed77c-2a6c-484d-aabe-891dae26ab5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f5d02163-9065-40ef-819c-fd763a625763")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3f7f483-1e20-4048-8a39-3b9ef142197f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9932a48-9139-4704-8bbf-df2308879c41")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "252aa75d-8e22-45ba-ad7e-7ce6e3173502")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f628f52-3382-42bf-a945-09799c05cf11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c73af128-92ba-49ad-b534-be790db1c556")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "af87579c-7dcc-4a84-beb2-cb869a5ad4e6")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7c7c3a08-0d88-48f6-9ce5-e77e79bab547")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bec7357c-c0c2-4408-8848-26295b78e977")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "75618d6c-64b9-4078-9247-5811ca37f623")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "37dd7239-c5cd-4090-bea0-7c289b2daaf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "2d7233ae-038a-4322-b8bb-72912ab7e239")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "ec994186-0fb2-4d6f-8c9a-e4fa84394b38")
+		(at 179.7905 131.258)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW25"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3b567211-b9f5-4ab7-844b-b55616e852c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "faf864ad-990d-4cc6-aef5-98de505c1786")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e9952b6-e396-4e9c-888a-e00fc0337ce6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d47ca8a-ae77-4d41-8e7f-c2dacbc4894a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6acc334e-1303-41db-bcfb-f3eb512101a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d390261-e3d4-408a-b921-a97bd0d08f59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/879508f6-804d-40c0-bf8d-963554fd35ec")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d16f91c4-beca-4f7a-a240-96654c455b4b")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0d6814de-011e-4bad-8a5b-7697268d77ba")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "117a97f4-7835-4eee-b5fb-64d1aea9e0ef")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "38d6aa18-b0fd-4900-b6d6-f6bf94020aca")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a2859780-b99a-4415-ad12-02ca92efe472")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "5e0d8c28-1742-4d7a-b3ab-4c28fad087d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "ee7f477c-076b-45e1-a5fe-541a47170080")
+		(at 217.8875 112.21)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW21"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b54484b0-385e-41b5-b0f7-fff441762bee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "58a5f3d8-d7fa-4583-bfa8-16a1417586a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e91b8c23-e5ef-462e-9fdc-1cd983ed188e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c412feb6-f831-43a8-b5ba-df7e6c8798cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c21b4bd2-43eb-4994-a42f-ba49f66690f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0c72863-8e06-4b87-b9b8-2d37451d88e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4c86d508-db81-47d3-a171-8bb01a3632d4")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "67464874-45ba-4505-a1fc-dea5fcd22796")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9439a59a-d3c6-46c0-96c3-9d298454affa")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f0d4a4c1-40f7-4e62-9521-1cf28298f59f")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9db1f127-1258-45ed-b9e8-5c46999ca7e4")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "421e1885-36dd-4b5d-aa91-28e3126b4315")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "b1a7248d-02f4-4c40-b4ff-5f5a7359cc25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "f21f4f86-6391-44ed-b719-6990d650e319")
+		(at 179.8055 112.208)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW19"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a72a7e90-0ba6-4904-8fd3-360a2fbbc851")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "69ae0c26-26c4-4d0a-a1f8-8860a8f9fd50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33b2d80e-1f13-4b87-afde-734649abad59")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e62a572-15c2-43ac-93f3-82df1df40c76")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4bf0043-0ad4-4ea9-b2d5-ba559ef28fa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e9ec0bb-413f-40a6-b1b0-ed2fc42a4cbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cb121f28-1cb8-4c68-bc50-2074253905f4")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "69129731-0dfb-4d80-a1c1-227df616a7cf")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b4ab7694-1656-46ab-8946-61e33047d4aa")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4ffc5046-7ae3-47da-bd97-b9eab32d83f1")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "deac1e7b-486c-4f5c-99ff-03b264467031")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "82ac8824-c768-48e7-805a-0b079329eb2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "f4cb53d2-00df-4684-a463-fdc58d160055")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "ffafb588-b157-4a97-a8ea-bede8a82f3d4")
+		(at 217.8805 93.158)
+		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+		(tags "Cherry MX keyswitch 1.00u PCB")
+		(property "Reference" "SW14"
+			(at -2.54 -2.794 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6546f8f0-c1f4-414b-b930-cd8e7a17013d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at -2.539999 12.954001 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "619ac901-58d7-4d23-8739-e2e2ef34ce9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_HOTSWAP_Details_cutout"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65e1aec5-c237-494e-905e-f12c17be6484")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83598dd1-5229-4272-9f9d-b6ae0911f133")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Keyboard mechanical switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bc81c59-4e98-4927-9481-60ddfa9e7816")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Keycode" "KC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a122e020-3fc0-4af7-8f1f-f9ad625cf333")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/91a0829d-a841-4a57-9c0c-d22514878cc7")
+		(sheetname "Root")
+		(sheetfile "MacroPadPro.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.545 -1.929)
+			(end -9.545 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bc050093-f27c-4a33-96b7-6d00a3a67508")
+		)
+		(fp_line
+			(start -9.545 12.071)
+			(end 4.455 12.071)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cf4a0af4-1b0e-41ba-95ba-b885081e118d")
+		)
+		(fp_line
+			(start 4.455 -1.929)
+			(end -9.545 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c0cfe5e1-c4d1-488d-9d2f-e05cfe2d2842")
+		)
+		(fp_line
+			(start 4.455 12.071)
+			(end 4.455 -1.929)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "da4fce41-df8a-4a36-8471-b27da9f18e4e")
+		)
+		(fp_text user "1"
+			(at -0.057449 12.139009 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "486509f6-b1f1-4115-af6c-175d13f8a4bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 -2.794 180)
+			(layer "F.Fab")
+			(uuid "41e3ba9a-af63-4c03-be57-aefd32678500")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/james/Documents/keyboard/cherry-mx-wrl/CherryMX.3dshapes/CherryMX.wrl"
+			(hide yes)
+			(offset
+				(xyz 4.9 2.4 6)
+			)
+			(scale
+				(xyz 0.4 0.4 0.4)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "/home/james/Downloads/aa/PG151101S11--3DModel-STEP-1.STEP"
+			(hide yes)
+			(offset
+				(xyz -3.5 -1.5 -1.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(gr_line
+		(start 238.5775 131.53)
+		(end 238.5775 83.95)
+		(locked yes)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0b4acbb7-9219-442a-9b89-b9a261142085")
+	)
+	(gr_line
+		(start 77.8775 131.53)
+		(end 77.8775 83.95)
+		(locked yes)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2b624c4c-6c56-4dad-afd7-66a2416afd5e")
+	)
+	(gr_line
+		(start 221.5775 68.95)
+		(end 94.8775 68.95)
+		(locked yes)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "517a3990-edc7-43ca-a6ac-27ef116f9cd3")
+	)
+	(gr_line
+		(start 94.8775 146.53)
+		(end 221.5775 146.53)
+		(locked yes)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8bd9f3d3-fc9a-4b19-9b6e-ca5ad957cb87")
+	)
+	(gr_arc
+		(start 221.5775 68.95)
+		(mid 233.184102 72.929185)
+		(end 238.5775 83.95)
+		(locked yes)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9fd26ff5-fd68-44f9-b86a-821899f214e6")
+	)
+	(gr_arc
+		(start 238.5775 131.53)
+		(mid 233.184102 142.550815)
+		(end 221.5775 146.53)
+		(locked yes)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a1a34a7f-9406-491d-8c30-6e3550fae2c8")
+	)
+	(gr_arc
+		(start 94.8775 146.53)
+		(mid 83.270897 142.550817)
+		(end 77.8775 131.53)
+		(locked yes)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e77f94f3-b19b-468f-abfe-df539a0fcfaf")
+	)
+	(gr_arc
+		(start 77.8775 83.95)
+		(mid 83.270898 72.929185)
+		(end 94.8775 68.95)
+		(locked yes)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f7b3472d-62ba-45a5-9b00-7ce2d21d7932")
+	)
+)
