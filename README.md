@@ -13,6 +13,8 @@
 * Fits into an iphone 13/14 Pro Max case
 * 4 mounting screws for custom case designs
 
+* Currently working on a one handed keyboard mode using chord
+
 ## Parts
 | Part | Quantity     | Description                |
 | :-------- | :------- | :------------------------- |
